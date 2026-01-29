@@ -10,3 +10,6 @@ requires-python = ">=3.8"
 addopts = "--cov=bank_account --cov-fail-under=90"
 [tool.pylint]
 disable = ["missing-module-docstring"]
+packages = [
+    { include = "bank_account", from = "src" }
+]

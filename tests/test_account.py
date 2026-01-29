@@ -1,5 +1,5 @@
 import pytest
-from bank_account import BankAccount
+from bank_account.account import BankAccount
 
 
 def test_initial_balance():
