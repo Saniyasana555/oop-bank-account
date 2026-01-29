@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "oop-bank-account"
+version = "0.1.0"
+description = "Simple OOP bank account"
+requires-python = ">=3.8"
+[tool.pytest.ini_options]
+addopts = "--cov=bank_account --cov-fail-under=90"
+[tool.pylint]
+disable = ["missing-module-docstring"]
