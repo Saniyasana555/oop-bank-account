@@ -20,7 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          pip install pytest pytest-cov pylint bandit pip-audit buildd
+          pip install pytest pytest-cov pylint bandit pip-audit build
 
       - name: Run pylint (≥9.0)
         run: pylint src/bank_account --fail-under=9.
